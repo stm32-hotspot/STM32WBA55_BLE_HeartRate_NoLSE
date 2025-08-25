@@ -1,0 +1,57 @@
+# STM32CubeIDE
+STM32CubeIDE/*
+!STM32CubeIDE/NonSecure
+STM32CubeIDE/NonSecure/*
+!STM32CubeIDE/Secure
+STM32CubeIDE/Secure/*
+!STM32CubeIDE/Application/
+!STM32CubeIDE/**/.cproject
+!STM32CubeIDE/**/.project
+!STM32CubeIDE/**/*.ld
+.metadata
+.settings/
+.loadpath
+.recommenders
+*.launch
+
+# IAR EWARM
+EWARM/*
+!EWARM/NonSecure
+EWARM/NonSecure/*
+!EWARM/Secure
+EWARM/Secure/*
+!EWARM/**/*.ewd
+!EWARM/**/*.ewp
+!EWARM/**/*.eww
+!EWARM/**/*.s
+!EWARM/**/*.icf
+
+# Keil MDK-ARM
+MDK-ARM/*
+!MDK-ARM/NonSecure
+MDK-ARM/NonSecure/*
+!MDK-ARM/Secure
+MDK-ARM/Secure/*
+!MDK-ARM/**/*.uvprojx
+!MDK-ARM/**/*.uvoptx
+!MDK-ARM/**/*.uvmpw
+!MDK-ARM/**/RTE/*
+!MDK-ARM/**/*.sct
+!MDK-ARM/**/*.s
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+cscope.*
+.history/
+
+# External Tool Builders
+.externalToolBuilders/
+
+# J-Link
+JLinkLog.txt
+JLinkSettings.ini
